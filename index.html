@@ -180,6 +180,8 @@
   .nav-links{ font-family:'Fraunces', sans-serif; font-weight:500; }
   .nav-links li.nav-mobile-cta{ display:none; }
   html{ scroll-padding-top:84px; }
+  #prenota{ scroll-margin-top:210px; }
+  @media(max-width:700px){ #prenota{ scroll-margin-top:0px; } }
   @media(max-width:840px){
     .nav{ padding-top:12px; padding-bottom:12px; }
     .nav-cta .btn{ display:none; }
@@ -737,7 +739,7 @@
   <div class="pole-divider" role="separator" aria-hidden="true"></div>
 
   <!-- PERCHÉ SCEGLIERCI + CONTATTO DIRETTO -->
-  <section id="prenota" class="booking">
+  <section id="perche" class="booking">
     <div class="wrap">
       <div class="section-head">
         <div>
@@ -762,7 +764,7 @@
         </div>
       </div>
 
-      <div class="call-card">
+      <div class="call-card" id="prenota">
         <div class="call-card-main">
           <div class="kicker">Prenotazioni</div>
           <h3>Scrivici o chiamaci, ti troviamo un posto!</h3>
